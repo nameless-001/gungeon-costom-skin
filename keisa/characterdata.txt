@@ -1,0 +1,55 @@
+#Lines starting with hashtags and empty lines are not read by the character loader
+
+#You HAVE to include these
+base: Convict
+name short: keisa
+name: Keisa
+
+#This is basically useless for now
+nickname: wa sans!
+
+#Set starting armor
+armor: 1
+
+<loadout>
+        unfinished_gun
+        scouter
+        orbital_bullets
+	singularity
+</loadout>
+
+#This is an all-inclusive list of the stats available for changing
+#The default values are in the guide. It's in the workshop page downloads.
+<stats>
+	Accuracy: 1
+	AdditionalBlanksPerFloor: 0
+	AdditionalClipCapacityMultiplier: 1
+	AdditionalGunCapacity: 0
+	AdditionalItemCapacity: 0
+	AdditionalShotBounces: 0
+	AdditionalShotPiercing: 0
+	AmmoCapacityMultiplier: 1
+	ChargeAmountMultiplier: 1
+	Coolness: 1
+	Curse: 0
+	Damage: 1.1
+	DamageToBosses: 1.1
+	DodgeRollDamage: 1
+	DodgeRollDistanceMultiplier: 1
+	DodgeRollSpeedMultiplier: 1.3
+	EnemyProjectileSpeedMultiplier: 1
+	ExtremeShadowBulletChance: 0
+	GlobalPriceMultiplier: 1
+	Health: 2
+	KnockbackMultiplier: .8
+	MoneyMultiplierFromEnemies: 1
+	MovementSpeed: 9
+	PlayerBulletScale: 1
+	ProjectileSpeed: 1
+	RangeMultiplier: 1
+	RateOfFire: 1.20
+	ReloadSpeed: 1.4
+	ShadowBulletChance: 0
+	TarnisherClipCapacityMultiplier: 1
+	ThrownGunDamage: 40
+</stats>
